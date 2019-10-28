@@ -1,0 +1,25 @@
+body {
+	background: #ddd;
+	p {
+		color: #DA3C7B;
+		text-align: center;
+		margin-top: 30px;
+	}
+	h1 {
+		
+		text-align: center;
+		margin-top: 50px;
+
+	
+
+		// Breakpoint 
+		@include breakpoint(md) {
+			margin-top: 20px;
+		}
+
+		// Breakpoint-min
+		@include breakpoint-min(xl) {
+			margin-top: 70px;
+		}
+	}
+}
